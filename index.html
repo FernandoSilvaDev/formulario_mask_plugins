@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingressos MotoGP</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <H1>Formulário para adiquerir o seu ingresso.</H1>
+        </div>
+    </header>
+    <section class="form">
+        <form>
+            <div class="form-campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-campo">
+                <label for="cpf">CPF</label>
+                <input type="cpf" id="cpf" name="cpf">
+            </div>
+            <div class="form-campo">
+                <label for="endereco">Endereço</label>
+                <input type="endress" id="endereco" name="endereco">
+            </div>
+            <div class="form-campo">
+                <label for="cep">CEP</label>
+                <input type="zip-code" id="zip-code" name="zipCode">
+            </div>
+            <button type="submit" >Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                2024 &copy; Fernando Silva - Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
